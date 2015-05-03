@@ -29,7 +29,7 @@ public class PatoTest {
 	public void elDesplazamientoActualDelPatoEsNadandoTest(){
 		
 		Pato pato = new Pato();
-		pato.desplazareNadando();;
+		pato.desplazarseNadando();;
 		
 		Assert.assertEquals("El pato está nadando", pato.mostrarDesplazamientoActual());
 	}

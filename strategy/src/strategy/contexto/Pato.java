@@ -10,7 +10,7 @@ public class Pato {
 	private Desplazamiento desplazamiento;
 	private String desplazamientoActual;
 	
-	public void desplazareNadando() {
+	public void desplazarseNadando() {
 		desplazamiento = new Nadar();
 		this.desplazamientoActual = desplazamiento.desplazar();
 	}
