@@ -1,0 +1,9 @@
+
+El patrón Command es un patrón de comportamiento que permite desacoplar completamente la comunicación entre un objeto que solicita ejecutar 
+una operación y el objeto que la ejecuta.
+Para su implementación simplemente definimos una interface Comando con un método ejecutar, la idea es que esta interfaz es la que nos va
+ a permitir de intermediario entre el objeto que envía la solicitud y el objeto que la ejecuta.
+
+En el ejemplo la comunicación entre un interruptor y una lamparta , el interruptor debe prender la lampara pero todo esto lo hace a través
+ de un objeto intermedio (Comando) lo que permite que el interruptor no tenga ningún conocimiento del objeto real que ejecuta la operación, 
+simplemente el sabe invocar la operación a través de una interfaz muy bien definida.
